@@ -1,0 +1,21 @@
+{
+  "name": "manabi_aid_2_csv",
+  "version": "0.0.1",
+  "description": "学びエイドCSV書き出しアプリ",
+  "main": "./src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "yagisawa",
+  "license": "ISC",
+  "dependencies": {
+    "csv-writer": "^1.6.0",
+    "jsdom": "^20.0.3"
+  },
+  "devDependencies": {
+    "electron": "^22.0.0",
+    "electron-builder": "^23.6.0",
+    "eslint": "^8.29.0"
+  }
+}

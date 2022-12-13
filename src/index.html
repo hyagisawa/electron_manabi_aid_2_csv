@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'">
+    <link href="./styles.css" rel="stylesheet">
+    <title>学びエイド</title>
+</head>
+
+<body>
+    <h1>学びエイド CSV 書き出しアプリ 😺</h1>
+    <div class="container">
+        <div id="button-back"></div>
+        <button id="button">ファイルの選択<br>またはドラッグ</button>
+    </div>
+    <div id="footer">
+        <p id="text">ファイルの選択、またはドラッグ..</p>
+    </div>
+
+    <script src="./renderer.js"></script>
+</body>
+
+</html>

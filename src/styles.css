@@ -1,0 +1,62 @@
+/* styles.css */
+html,
+body {
+    margin: 0 auto;
+    font-size: 10px;
+}
+
+h1 {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    height: 10rem;
+}
+
+
+#button {
+    position: absolute;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #fff;
+
+    appearance: none;
+    width: 25rem;
+    height: 10rem;
+    border-radius: 0.5rem;
+    border-width: 0px;
+    background-color: #6bb6ff;
+}
+
+#button:hover {
+    transform: translateY(4px);
+    background-color: #5499d9;
+}
+
+#button-back {
+    position: absolute;
+    width: 25rem;
+    height: 10rem;
+    background-color: #ccc;
+    border-radius: 0.5rem;
+    transform: translateY(4px);
+}
+
+#footer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+/* Add styles here to customize the appearance of your app */
