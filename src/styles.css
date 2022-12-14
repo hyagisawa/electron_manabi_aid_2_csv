@@ -40,8 +40,12 @@ p {
 }
 
 #button:hover {
-    transform: translateY(4px);
+    /* transform: translateY(4px); */
     background-color: #5499d9;
+}
+
+#button:active {
+    transform: translateY(4px);
 }
 
 #button-back {

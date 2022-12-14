@@ -9,13 +9,32 @@
   },
   "author": "yagisawa",
   "license": "ISC",
-  "dependencies": {
-    "csv-writer": "^1.6.0",
-    "jsdom": "^20.0.3"
-  },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.46.1",
+    "@typescript-eslint/parser": "^5.46.1",
     "electron": "^22.0.0",
     "electron-builder": "^23.6.0",
     "eslint": "^8.29.0"
+  },
+  "build": {
+    "appId": "com.manabiAID.extractCSV",
+    "files": [
+      "assets",
+      "src",
+      "package.json",
+      "package-lock.json"
+    ],
+    "mac": {
+      "target": "dmg",
+      "icon": "./assets/manabi_logo.icns"
+    },
+    "win": {
+      "target": "nsis",
+      "icon": "./assets/manabi_logo.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    }
   }
 }
